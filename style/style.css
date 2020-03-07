@@ -8,21 +8,37 @@ header {
     padding: 230px;
     text-align: center;
     font-size: 100px;
+    top: 0;
+    bottom: 0;
 }
 
 section { 
     padding: 10px;
-    text-align: center;
     font-size: 23px;
 }
 
 nav {
     padding: 10px;
     background-color: white;
+    top: 0;
+    left: 0;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+    margin: 5px;
+    padding: 10px;
+}
 #bio {
     background-color: #C0C0C0;
+}
+
+#commands {
+    margin-top: 3px;
+    text-align: left;
+    background-color: silver;
 }
 @media (min-width: 700px) {
     header {
@@ -32,6 +48,7 @@ nav {
 
     nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: right;
     }
 }
