@@ -17,6 +17,18 @@ section {
     font-size: 23px;
 }
 
+#bio a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(129, 129, 129);
+    color: #000000;
+    transition: 1.5s;
+}
+
+#bio a:hover {
+background-color: rgb(59, 59, 61);
+color: #ffffff;
+}
 table {
     border-collapse: collapse;
     width: 100%;
