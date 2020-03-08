@@ -26,6 +26,13 @@ td, th {
     text-align: left;
     padding: 8px;
     background-color: rgb(129, 129, 129);
+    transition: 1.5s;
+}
+
+td:hover  {
+    transition: 1.5;
+    background-color: rgb(59, 59, 61);
+    color: #ffffff;
 }
 
 nav {
