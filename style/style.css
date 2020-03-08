@@ -23,6 +23,7 @@ section {
     background-color: rgb(129, 129, 129);
     color: #000000;
     transition: 1.5s;
+    margin: 100px;
 }
 
 #bio a:hover {
@@ -63,6 +64,8 @@ nav a {
 }
 #bio {
     background-color: #C0C0C0;
+    padding: 30px;
+    text-align: center;
 }
 
 #commands {
